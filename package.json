@@ -1,0 +1,26 @@
+{
+  "name": "clorox",
+  "version": "0.0.0",
+  "description": "A tree-walking HTML sanitizer, based on python's bleach",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap-prettify test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/brianloveswords/clorox.git"
+  },
+  "keywords": [
+    "bleach",
+    "sanitization",
+    "html"
+  ],
+  "author": "Brian J Brennan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianloveswords/clorox/issues"
+  },
+  "dependencies": {
+    "tap-prettify": "0.0.2"
+  }
+}
